@@ -43,6 +43,73 @@ export default function HomePage() {
               View Leaderboard
             </Link>
           </div>
+
+          <div
+            aria-label="Scan QR code to register for the Janx Striper Tournament"
+            style={{
+              marginTop: 24,
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 16,
+              padding: 14,
+              borderRadius: 22,
+              background: "rgba(0,0,0,.54)",
+              border: "1px solid rgba(255,255,255,.18)",
+              boxShadow: "0 18px 44px rgba(0,0,0,.28)",
+              backdropFilter: "blur(10px)",
+              flexWrap: "wrap",
+            }}
+          >
+            <div
+              style={{
+                width: 128,
+                height: 128,
+                borderRadius: 16,
+                background: "white",
+                padding: 8,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Image
+                src="/registration-qr.png"
+                alt="QR code to register for the Janx Striper Tournament"
+                width={112}
+                height={112}
+                priority
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+              />
+            </div>
+
+            <div style={{ maxWidth: 260 }}>
+              <div
+                style={{
+                  color: "white",
+                  fontSize: 18,
+                  fontWeight: 850,
+                  letterSpacing: "-.2px",
+                }}
+              >
+                Scan to buy your ticket
+              </div>
+              <p
+                className="small"
+                style={{
+                  margin: "6px 0 0",
+                  lineHeight: 1.45,
+                  color: "rgba(255,255,255,.78)",
+                }}
+              >
+                Use your phone camera or tap Register Now to purchase your
+                tournament entry.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -147,7 +214,10 @@ export default function HomePage() {
             <div className="stepCard card">
               <span>03</span>
               <h3>Verify</h3>
-              <p>Approved catches are reviewed and added to the official standings.</p>
+              <p>
+                Approved catches are reviewed and added to the official
+                standings.
+              </p>
             </div>
           </div>
         </div>

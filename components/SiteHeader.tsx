@@ -26,7 +26,7 @@ export function SiteHeader() {
           alignItems: "center",
           justifyContent: "space-between",
           gap: 22,
-          padding: "16px 24px",
+          padding: "14px 24px",
           flexWrap: "wrap",
         }}
       >
@@ -36,29 +36,32 @@ export function SiteHeader() {
           style={{
             display: "flex",
             alignItems: "center",
-            gap: 12,
+            gap: 14,
           }}
         >
           <div
             style={{
-              width: 42,
-              height: 42,
-              borderRadius: 12,
+              width: 64,
+              height: 64,
+              borderRadius: 16,
               overflow: "hidden",
               flexShrink: 0,
-              border: "1px solid rgba(255,255,255,.14)",
+              background: "rgba(255,255,255,.96)",
+              border: "1px solid rgba(255,255,255,.22)",
+              boxShadow: "0 10px 30px rgba(0,0,0,.22)",
             }}
           >
             <Image
-              src="/flag-icon.png"
-              alt="Janx Tournament flag"
-              width={42}
-              height={42}
+              src="/janx-shield.png"
+              alt="Janx Striper Tournament shield logo"
+              width={64}
+              height={64}
               priority
               style={{
                 width: "100%",
                 height: "100%",
-                objectFit: "cover",
+                objectFit: "contain",
+                padding: 3,
               }}
             />
           </div>

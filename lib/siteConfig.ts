@@ -32,7 +32,7 @@ export const siteConfig = {
     value: "TBD",
   },
 
-  registerUrl: "https://my.cheddarup.com/c/janx-striper-tournament-copy/items",
+  registerUrl: "https://my.cheddarup.com/c/janx-striper-tournament-2025-copy/items",
 
   submitUrl:
     "https://docs.google.com/forms/d/e/1FAIpQLSfJ87P4Dxq-MVgx_MFauywL05AtUaqt-KkNFLciPIsu-dyfLw/viewform?usp=header",

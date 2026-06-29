@@ -1,6 +1,6 @@
 export const siteConfig = {
   title: "Janx Striper Tournament",
-  tagline: "4 days. One fish. Length only.",
+  tagline: "Pro • Amateur • Team Divisions",
   locationLine: "York, Maine • Lobster in the Rough (HQ)",
 
   dates: {
@@ -10,29 +10,67 @@ export const siteConfig = {
 
   schedule: [
     {
-      label: "Captain's Dinner",
-      date: "July 16, 2026",
+      label: "Captain's Dinner & 50/50",
+      date: "July 16, 2026 • 5 PM to 7 PM",
       details:
-        "Tournament kickoff, captain check-in, and pre-tournament gathering at Lobster in the Rough.",
+        "Captain's Dinner, 50/50, team names, dinner, and registration at Lobster in the Rough.",
+    },
+    {
+      label: "Silent Auction",
+      date: "July 16–19, 2026",
+      details: "Silent Auction at The Rough during tournament week.",
     },
     {
       label: "Awards",
-      date: "July 19, 2026",
+      date: "July 19, 2026 • 4 PM",
       details: "Final standings, awards, and tournament wrap-up.",
     },
   ],
 
   entry: {
-    label: "Entry Fee",
+    label: "Individual Entry",
     value: "$125",
+  },
+
+  teamEntry: {
+    label: "Team Entry",
+    value: "$450",
+    details: "Up to 4 anglers. Save $50. Team name required at entry.",
+  },
+
+  divisions: {
+    label: "Divisions",
+    value: "Pro & Amateur",
+    details: "You can only register in one division: Pro or Amateur.",
   },
 
   prizes: {
     label: "Prize Payout",
-    value: "TBD",
+    value: "$2,350",
+    details:
+      "Pro: $750/$500/$250 • Amateur: $300/$200/$100 • Team Prize: $250",
+  },
+
+  beneficiaries: {
+    label: "Benefits",
+    value: "Sweetser Maine & York Community Service",
+    details:
+      "Supporting mental health recovery and York Community Service.",
   },
 
   registerUrl: "https://my.cheddarup.com/c/janx-striper-tournament-2025-copy/items",
+
+  registerDeadline: "July 16, 2026 • 5 PM",
+
+  registrationMethods: [
+    "Scan the QR code",
+    "Register online at janxstripertournament.com",
+    "Venmo @scott-harrington-95 with name and shirt size in the message",
+    "Cash/check at Captain's Dinner",
+  ],
+
+  shirtDeadline:
+    "Register before July 1 to have your requested shirt size available on tournament day.",
 
   submitUrl:
     "https://docs.google.com/forms/d/e/1FAIpQLSfJ87P4Dxq-MVgx_MFauywL05AtUaqt-KkNFLciPIsu-dyfLw/viewform?usp=header",
@@ -54,12 +92,12 @@ export const siteConfig = {
       href: "https://www.theroughyorkmaine.com/",
     },
     {
-      name: "Sweetser",
+      name: "Sweetser Maine",
       href: "https://www.sweetser.org/",
     },
     {
-      name: "Dana-Farber Cancer Institute",
-      href: "https://www.dana-farber.org/",
+      name: "York Community Service",
+      href: "https://ycsaoh.org/",
     },
   ],
 

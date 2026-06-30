@@ -389,3 +389,35 @@ iframe{
     border-top:1px solid rgba(255,255,255,.08);
   }
 }
+/* Tournament Snapshot Cards */
+.infoGrid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:18px;
+}
+
+.infoCard{
+  padding:22px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.infoCard span{
+  color:var(--muted);
+  font-size:14px;
+  font-weight:600;
+}
+
+.infoCard strong{
+  color:white;
+  font-size:18px;
+  font-weight:800;
+  line-height:1.2;
+}
+
+.infoCard small{
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.4;
+}

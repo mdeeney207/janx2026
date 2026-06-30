@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
-import { InfoCards } from "@/components/InfoCards";
 
 export default function HomePage() {
   return (
@@ -123,7 +122,39 @@ export default function HomePage() {
             <p>Key details in one quick glance.</p>
           </div>
 
-          <InfoCards />
+          <div className="infoGrid">
+            <div className="infoCard card">
+              <span>Tournament Week</span>
+              <strong>July 16–19, 2026</strong>
+            </div>
+
+            <div className="infoCard card">
+              <span>HQ</span>
+              <strong>Lobster in the Rough</strong>
+            </div>
+
+            <div className="infoCard card">
+              <span>Individual Entry</span>
+              <strong>$125</strong>
+            </div>
+
+            <div className="infoCard card">
+              <span>Team Entry</span>
+              <strong>$450</strong>
+              <small>Up to 4 anglers / save $50</small>
+            </div>
+
+            <div className="infoCard card">
+              <span>Prize Pool</span>
+              <strong>$2,350</strong>
+              <small>Pro $1,500 • Amateur $600 • Team $250</small>
+            </div>
+
+            <div className="infoCard card">
+              <span>Divisions</span>
+              <strong>Pro & Amateur</strong>
+            </div>
+          </div>
         </div>
       </section>
 
